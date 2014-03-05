@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>16E2F004-D985-4618-90E9-32CD8DAFED97</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Cloth</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5AFA40EA-97B7-44F4-8822-E5E99AB60E66</key>
+		<string>ssh://git.oschina.net/https://git.oschina.net/songshuohuiztech/Cloth.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Cloth.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5AFA40EA-97B7-44F4-8822-E5E99AB60E66</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://git.oschina.net/https://git.oschina.net/songshuohuiztech/Cloth.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5AFA40EA-97B7-44F4-8822-E5E99AB60E66</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5AFA40EA-97B7-44F4-8822-E5E99AB60E66</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Cloth</string>
+		</dict>
+	</array>
+</dict>
+</plist>

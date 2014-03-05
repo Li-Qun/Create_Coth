@@ -1,0 +1,129 @@
+//
+// Prefix header for all source files of the 'Cloth' target in the 'Cloth' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <QuartzCore/QuartzCore.h>
+    #import "AppDelegate.h"
+#endif
+
+#define IMAGE_TEMP(path)    [NSString stringWithFormat:@"http://42.96.192.186/f/upload/%@",path]
+#define COM_IMAGE(path)     [NSString stringWithFormat:@"http://42.96.192.186/f/image/%@",path]
+
+#define AJAX_URL                    @"http://42.96.192.186/f/index.php?route=mobile/ajax"
+#define ACTION                      @"action"
+//用户类型
+#define USER_NORMAL                 @"1"
+#define USER_TECENT                 @"2"
+#define USER_SINA                   @"3"
+
+//登陆部分
+#define LOGIN_ACTION                @"login"
+#define FIRST_NAME                  @"firstname"
+#define PASSWORD                    @"password"
+#define ACCOUNT_TYPE                @"account_type"
+#define FOR_LOGIN                   @"for_login"
+//注册部分
+#define REGISTER_ACTION             @"register"
+//获取验证码部分
+#define GET_CAPTCHA                 @"get_captcha"
+#define TELEPHONE                   @"telephone"
+#define RESET_PASSWORD              @"reset_password"
+#define TYPE                        @"type"
+#define TELEPHONE_VALIDATE          @"telephone:validate"
+#define EMAIL_VALIDATE              @"email:validate"
+#define TELEPHONE_RESET_PASSWORD    @"telephone:reset_password"
+#define EMAIL_RESET_PASSWORD        @"email:reset_password"
+#define DEVICE                      @"device"
+//修改用户信息
+#define EDIT_USER_ACTION            @"edit_user"
+#define OLD_PASSWORD                @"old_password"
+#define NES_PASSWORD                @"new_password"
+#define TELEPHONE_CAPTCHA           @"telephone_captcha"
+#define EMAIL                       @"email"
+#define EMAIL_CAPTCHA               @"email_captcha"
+#define LOCAL_FILE                  @"file"
+//查询城市pid
+#define GET_AREA_BY_NAME            @"get_area_by_name"
+#define AREA_NAME                   @"area_name"
+//获取城市信息
+#define GET_ITEM_BY_PID             @"get_item_by_pid"
+#define PID                         @"pid"
+//添加供求
+#define SUPPLYPUBLISH               @"1"
+#define WANTPUBLISH                 @"2"
+#define ADD_TRADE                   @"add_trade"
+#define AREA_ID                     @"area_id"
+#define CLOTHING_TYPE_ID            @"clothing_type_id"
+#define PRICE                       @"price"
+#define TITLE                       @"title"
+#define DESCRIPTION                 @"description"
+#define TRADE_TYPE                  @"trade_type"
+//修改供求
+#define UPDATE_TRADE                @"update_trade"
+#define TRADE_ID                    @"trade_id"
+//删除供求
+#define DELETE_TRADE                @"delete_trade"
+//查询供求列表
+#define RETRIEVE_TRADES             @"retrieve_trades"
+#define RETRIEVE_TYPE               @"retrieve_type"
+#define PAGE                        @"page"
+//添加置顶
+#define ADD_STICKY                  @"add_sticky"
+#define CONTENT_ID                  @"content_id"
+#define CONTENT_TYPE                @"content_type"
+#define START_DATE                  @"start_date"
+#define END_DATE                    @"end_date"
+//删除置顶
+#define DELETE_STICKY               @"delete_sticky"
+//查询置顶
+#define RETRIEVE_STICKIES           @"retrieve_stickies"
+//添加收藏
+#define ADD_FAVORITE                @"add_favorite"
+//查询收藏
+#define RETRIEVE_FAVORITES          @"retrieve_favorites"
+//删除收藏
+#define DELETE_FAVORITE             @"delete_favorite"
+//提交反馈信息
+#define FEEDBACK                    @"feedback"
+#define EMAIL                       @"email"
+#define CONTENT                     @"content"
+//获取资讯
+#define RETRIEVE_INFORMATIONS       @"retrieve_informations"
+#define INFORMATION_TYPE_ID         @"information_type_id"
+//获取资讯详细
+#define RETRIEVE_INFORMATION        @"retrieve_information"
+#define FOR_IS_FAV                  @"for_is_fav"
+#define INFORMATION_ID              @"information_id"
+//生成资讯类型
+#define GENERATE_CONST_INFORMATION  @"generate_const_information_type"
+//查询商家
+#define RETRIEVE_MANUFACTURERS      @"retrieve_manufacturers"
+#define KEYWORD                     @"keyword"
+//查询产品
+#define RETRIEVE_PRODUCTS           @"retrieve_products"
+#define MANUFACTURER_ID             @"manufacturer_id"
+//查询评论
+#define RETREIEVE_COMMENTS          @"retrieve_comments"
+//添加评论
+#define ADD_COMMENT                 @"add_comment"
+#define TEXT                        @"text"
+//关于我们
+#define RETRIEVE_ABOUT_US           @"retrieve_about_us"
+//平台分享
+#define IMAGE_NAME                  @"sharesdk_img"
+#define IMAGE_EXT                   @"jpg"
+//按照区域父ID得到区域信息
+#define GET_AREA_BY_PID             @"get_area_by_pid"
+#define PID                         @"pid"
+
+
+
